@@ -3,7 +3,6 @@ from packaging import version
 import sklearn
 import numpy as np
 import pandas as pd
-import numpy as np
 
 assert sys.version_info >= (3, 7)
 assert version.parse(sklearn.__version__) >= version.parse("1.0.1")
